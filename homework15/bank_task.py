@@ -33,7 +33,6 @@ count = 0
 
 def deposit(amount):
     global bank_account, count
-    # if check_multiplicity(amount):
     bank_account += amount
     msg = f"Пополнение карты на {amount} у.е. Итого {bank_account} у.е."
     print(msg)
